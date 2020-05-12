@@ -1,0 +1,6 @@
+framework module Pods_DOITTarasenko {
+  umbrella header "Pods-DOITTarasenko-umbrella.h"
+
+  export *
+  module * { export * }
+}

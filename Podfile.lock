@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (5.1.0)
+  - BTNavigationDropdownMenu (0.5)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SwiftKeychainWrapper (3.4.0)
+  - Swinject (2.7.1)
+
+DEPENDENCIES:
+  - BTNavigationDropdownMenu
+  - Moya
+  - Moya/RxSwift
+  - RxCocoa
+  - RxSwift
+  - SwiftKeychainWrapper
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BTNavigationDropdownMenu
+    - Moya
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftKeychainWrapper
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  BTNavigationDropdownMenu: ba3a26fdb6a56c4721c31df8a0875106c259663a
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SwiftKeychainWrapper: 6fc49fbf7d4a6b0772917acb0e53a1639f6078d6
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+
+PODFILE CHECKSUM: f2f54f13e06db82088bcddfe445cb71f6f6274ef
+
+COCOAPODS: 1.9.1

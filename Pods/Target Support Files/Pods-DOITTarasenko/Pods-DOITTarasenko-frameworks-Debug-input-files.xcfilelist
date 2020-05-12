@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-DOITTarasenko/Pods-DOITTarasenko-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework
+${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework
