@@ -178,6 +178,6 @@ class NewTaskViewController: BasicViewController {
         notificationTextField.text = dateFormatter.string(from: notificationDatePicker.date)
         notificationTextField.resignFirstResponder()
         
-        viewModel.updateDateNotificationPicker.onNext(datePicker.date)
+        viewModel.updateDateNotificationPicker.onNext(notificationDatePicker.date)
     }
 }

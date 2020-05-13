@@ -50,6 +50,7 @@ class DetailTaskViewController: BasicViewController {
         .subscribe(onNext: { [weak self] in
             self?.navigationController?.popViewController(animated: true)
         }).disposed(by: disposeBag)
+    }
     
     private func setup(_ task: TaskModel) {
         let dateFormatter = DateFormatter()

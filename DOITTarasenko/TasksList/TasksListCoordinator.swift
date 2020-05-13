@@ -47,6 +47,8 @@ class TasksListCoordinator: BaseCoordinator {
     func showNewTaskViewController(didTaskUpdate: BehaviorRelay<Void>) {
         newTaskCoordinator.navigationController = self.navigationController
         newTaskCoordinator.didTaskUpdate = didTaskUpdate
+        newTaskCoordinator.task = nil
+        newTaskCoordinator.notificaion = nil
         self.start(coordinator: newTaskCoordinator)
     }
     
